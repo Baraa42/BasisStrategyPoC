@@ -1,0 +1,19 @@
+.DS_Store
+node_modules
+.env
+process.env
+typechain
+.idea
+
+#Hardhat files
+abi
+!npm/packages/abi/
+cache
+artifacts
+yarn-error.log
+package-lock.json
+.openzeppelin
+package-lock.json
+coverage.json
+coverage
+coverage

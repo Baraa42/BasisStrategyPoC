@@ -1,0 +1,27 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "static-server . --port 9011"
+  },
+  "files": [
+    "/index.html"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/onboarding": "^1.0.1",
+    "ethers": "^5.5.1",
+    "web3": "^1.7.1",
+    "web3-eth-abi": "^1.7.1"
+  },
+  "devDependencies": {
+    "@metamask/eslint-config": "^2.0.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-json": "^2.0.1",
+    "static-server": "^2.2.1"
+  }
+}

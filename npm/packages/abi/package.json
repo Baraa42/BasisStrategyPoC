@@ -1,0 +1,27 @@
+{
+  "name": "@dexcommas/abi",
+  "packageName": "DecommasCore",
+  "description": "DeCommas ABI smart contract",
+  "version": "0.0.29",
+  "author": "Decommas",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [
+    "decommas"
+  ],
+  "main": "dist/deltaNeutralPerp.json",
+  "sideEffects": true,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "yarn build",
+    "build": "mkdir -p dist",
+    "build:development": "env NODE_ENV=development yarn build",
+    "build:production": "env NODE_ENV=production yarn build"
+  },
+  "publishConfig": {
+    "@dexcommas:registry": "https://gitlab.pwlnh.com/api/v4/projects/118/packages/npm/"
+  },
+  "gitHead": "dda25a017b4acdbfd3b15c51c877142204b0c506"
+}
