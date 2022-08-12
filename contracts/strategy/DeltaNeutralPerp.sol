@@ -314,7 +314,7 @@ contract DeltaNeutralPerp is StrategyStorage {
 
 
     function getTotalUSDCValue() public view returns (uint256) {
-        return _abs(_perp.getAccountValue(address(this))) / 1e12 +
+        return _abs(_perp.getAccountValue(address(this)))  +
         getReserve() +
         Math.mulDiv(IERC20(_wToken).balanceOf(address(this)),
             _nativeStrategyTokenPrice(0), 1e18);
